@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery.js", "VK.js", "content-script.js" ],
+      "matches": [ "https://kite.zerodha.com/*" ]
+   } ],
+   "description": "Add unique features to enhance Zerodha kite platform.",
+   "icons": {
+      "128": "icon-128x128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoFhlf1ppU86kcF5XEHjjQX4zdjI0mxg2fOPYs6jFcZZPqfQTTTzM4pe+aIpLZiPvGv36VhxFSmfvE/X6C8wV0PHoQzAMttHUkvkHoBb0mD1fq9XBQLX/v91eThHZAkNu1/5vta38ZIgA012ag4j7ivCTy8HJsxGGWyVNU2gTQ+1lHbJIyvt0Jr5uZhCrglYBTpADEzHiw7zWD4BB/krUAxeANspxgUODMD1I80eZAaH2n8Jxc86hv5PD+t/L6xP2ZkXKd6javTWKehRIxiXs5fhIU21UbyLj0Bkpuu5K4rgGCYe20nwc27QO7UkRARmm3Vq3+aDQJXdlIt7BPpuBtwIDAQAB",
+   "manifest_version": 3,
+   "name": "Zerodha Kite Enhancements",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.0"
+}
